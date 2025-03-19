@@ -3,6 +3,8 @@ pragma solidity 0.8.26;
 
 import {IPendleRouter} from "./interfaces/IPendleRouter.sol";
 
+/// @title StructGen
+/// @notice Provide functions for TokenInput structure and TokenOutput structure
 abstract contract StructGen {
     // EmptySwap means no swap aggregator is involved
     IPendleRouter.SwapData public emptySwap;
